@@ -1,0 +1,59 @@
+﻿Capítulo 01 - Aula 01
+=====================
+
+Check ✓
+
+(✓) Instalar VSCode de forma local, descompactando o .zip - https://code.visualstudio.com/download#
+(✓) Habilitar o portable mode - https://code.visualstudio.com/docs/editor/portable
+(✓) Abrir o VSCode nesta pasta
+(✓) Navegar por algumas funcionalidades
+(✓) Baixar e instalar fonte Fira Code - https://github.com/tonsky/FiraCode
+
+(✓) Instalar as seguintes extensões
+  - (✓) Winter is Coming Theme
+  - (✓) vscode-icons
+  - (✓) Debugger for Chrome
+  - (✓) Prettier
+  - (✓) Color Highlight
+
+(✓) Modificar settings.json e incluir o seguinte conteúdo:
+
+{
+  "extensions.ignoreRecommendations": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "vscode-icons",
+  "debug.console.fontFamily": "Fira Code Retina",
+  "editor.fontFamily": "'Fira Code Retina', Consolas, 'Courier New', monospace",
+  "window.zoomLevel": 1,
+  "editor.fontLigatures": false,
+  "editor.fontSize": 18,
+  "editor.lineHeight": 24,
+  "editor.formatOnSave": true,
+  "update.mode": "none",
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.tabSize": 2,
+  "terminal.integrated.fontSize": 14,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "prettier.singleQuote": true,
+  "files.autoSave": "onFocusChange",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe"
+}
+
+(✓) Criar HTML com Emmet
+(✓) Mostrar duplicação de linhas
+(✓) Mostrar como mover linhas
+(✓) Mostrar como renomear elementos
+(✓) Mostrar exemplos com Emmet
